@@ -1,0 +1,48 @@
+{
+  "dataset": {
+    "patients": 2,
+    "risk_factor_reference_count": 517,
+    "clinical_group_reference_count": 43,
+    "saved_patient_results": 2
+  },
+  "risk_factor_retrieval": {
+    "candidate_limit": 40,
+    "baseline_chars": 677892,
+    "average_candidate_chars": 122239,
+    "average_candidate_count": 40,
+    "reduction_percent": 81.97,
+    "top_labels_per_patient": [
+      [
+        "Acute or acute on chronic heart failure with hospital plan of care for IV diuretic and THREE of the following on INITIAL presentation (DO NOT select if heart failure exacerbation is described as MILD):",
+        "TIMI score of 5 or more calculated using clinical data in the medical record: Must have 1) non ST-elevation myocardial infarction (NSTEMI), acute coronary syndrome (ACS), or unstable angina (UA) AND 2) hospital plan of care including continuous parenteral anticoagulation (such as IV heparin, weight-based enoxaparin (Lovenox) SQ q12h, or daily fondaparinux) AND 3) FIVE of the following (please do not select ANY subfactors unless 5 are present):",
+        "HEART score of 7 or more calculated using clinical data in the medical record. Must have 1) Physician diagnosis of chest pain, any angina, anginal-equivalent or myocardial infarction but not Type 2 MI or demand ischemia AND 2) hospital plan of care for continuous parenteral anticoagulation (such as IV heparin, weight-based enoxaparin (Lovenox) SQ q12h, or daily fondaparinux) AND 3) THREE of the following (please do not select ANY subfactors unless 3 are present):",
+        "Acute or acute on chronic heart failure with hospital plan of care for IV diuretics (once a day or more frequent) AND one of the following COMPLICATIONS (DO NOT select if heart failure exacerbation is described as MILD):",
+        "Physician diagnosis of SEPSIS, BLOOD CULTURES obtained, AND IV antimicrobials administered with acute (or acute on chronic) MENTAL STATUS OR NEUROLOGIC DYSFUNCTION, defined by ONE of the following (If patient has signs or symptoms of respiratory tract infection, go to PULM: Pneumonia Bronchitis OCG):"
+      ],
+      [
+        "Persistent or new laboratory, metabolic or electrolyte derangement requiring IV treatment and blood chemistries more than once a day:",
+        "Documented physician concern and plan of care for moderate to severe DKA as defined by blood glucose greater than 250 mg/dL and ALL of the following (If patient is diagnosed with DKA but does not meet these criteria, see high risk factor for Hyperglycemia):",
+        "Persistent or new laboratory, metabolic or electrolyte derangement requiring IV treatment and blood chemistries more than once a day:",
+        "Chest pain or suspected acute coronary syndrome (ACS) AND NO physician documentation of ischemic changes on EKG AND NO evidence of acute myocardial injury:",
+        "Documented physician concern and plan of care for HYPERCALCEMIA with:"
+      ]
+    ]
+  },
+  "clinical_group_retrieval": {
+    "candidate_limit": 8,
+    "baseline_chars": 246890,
+    "average_candidate_chars": 36611,
+    "average_candidate_count": 4,
+    "reduction_percent": 85.17,
+    "top_groups_per_patient_result": [
+      [
+        "GURENAL: CKD and ESRD Complications and Dialysis Issues",
+        "CARD: Bradycardia",
+        "GURENAL: General",
+        "OBGYN: Complications of Pregnancy Labor",
+        "GI: General"
+      ],
+      []
+    ]
+  }
+}

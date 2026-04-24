@@ -1,0 +1,171 @@
+[
+    {
+        "patient_id": "P12345",
+        "recommendedClinicalGroup": "ENVIRO: Trauma Fall",
+        "matchPercentage": 75,
+        "highRiskProfile": "High Risk Profile",
+        "matchedEvidence": [
+            {
+                "riskFactor": "Severe ground-level fall (elderly)",
+                "subRiskFactors": [
+                    {
+                        "subRiskFactor": "Multiple fractures",
+                        "clinicalFacts": [
+                            ">= 2 long bone fractures"
+                        ]
+                    }
+                ]
+            },
+            {
+                "riskFactor": "Elderly trauma with frailty",
+                "subRiskFactors": [
+                    {
+                        "subRiskFactor": "Multimorbidity",
+                        "clinicalFacts": [
+                            "Diabetes"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "lowRiskProfile": "Low Risk Profile",
+        "matchedAudience": [
+            {
+                "riskFactor": "Ground level fall with GCS > 13 and no major findings",
+                "subRiskFactors": [],
+                "clinicalFacts": [
+                    "Ground level fall"
+                ]
+            }
+        ],
+        "recommendationStatus": "recommended",
+        "reason": "ENVIRO: Trauma Fall clinical group matched multiple risk factors and clinical facts across both High Risk and Low Risk Profiles, including severe ground-level fall with multiple fractures and multimorbidity in High Risk Profile, and ground level fall in Low Risk Profile, exceeding the 70% threshold."
+    },
+    {
+        "patient_id": "P67890",
+        "recommendedClinicalGroup": "GURENAL: CKD and ESRD Complications and Dialysis Issues",
+        "matchPercentage": 85,
+        "highRiskProfile": "High Risk Profile",
+        "matchedEvidence": [
+            {
+                "riskFactor": "Diagnosis of shock or hypotension AND administration of TWO or more boluses of IV fluid with:",
+                "subRiskFactors": [
+                    {
+                        "subRiskFactor": "Persistent systolic blood pressure less than 90 mmHg (or MAP less than 60 mmHg, not baseline for the patient) despite fluid boluses",
+                        "clinicalFacts": [
+                            "Diagnosis of hypotension",
+                            "Diagnosis of shock",
+                            "IV fluid bolus",
+                            "MAP < 60",
+                            "SBP < 90",
+                            "SBP below baseline"
+                        ]
+                    },
+                    {
+                        "subRiskFactor": "Shock Index (HR/systolic BP) greater than 1.0",
+                        "clinicalFacts": [
+                            "Diagnosis of hypotension",
+                            "Diagnosis of shock",
+                            "IV fluid bolus",
+                            "Shock index > 1.0"
+                        ]
+                    },
+                    {
+                        "subRiskFactor": "Complications of hypoperfusion, such as altered mental status (not dementia), decreased urine output, diagnosed AKI, decreased capillary refill, or cool extremities",
+                        "clinicalFacts": [
+                            "Acute change in mental status",
+                            "Cool extremities",
+                            "Decreased capillary refill",
+                            "Diagnosis of AKI",
+                            "Diagnosis of hypotension",
+                            "Diagnosis of shock",
+                            "IV fluid bolus",
+                            "Poor urine output"
+                        ]
+                    }
+                ]
+            },
+            {
+                "riskFactor": "Documented physician concern for HYPERKALEMIA and potassium greater than or equal to 6.0 mEq/L (not hemolyzed) with:",
+                "subRiskFactors": [
+                    {
+                        "subRiskFactor": "Administration of insulin IV or albuterol (IV or nebulized) and plan of care for repeat potassium level",
+                        "clinicalFacts": [
+                            "CKD",
+                            "Concern for hyperkalemia",
+                            "IV insulin",
+                            "K > = 6.0",
+                            "Plan to recheck potassium level"
+                        ]
+                    },
+                    {
+                        "subRiskFactor": "Administration of IV calcium AND physician documentation of ECG changes consistent with hyperkalemia",
+                        "clinicalFacts": [
+                            "CKD",
+                            "Concern for hyperkalemia",
+                            "EKG changes due to hyperkalemia",
+                            "IV calcium",
+                            "K > = 6.0"
+                        ]
+                    },
+                    {
+                        "subRiskFactor": "Administration of IV sodium bicarbonate continuous infusion (drip)",
+                        "clinicalFacts": [
+                            "CKD",
+                            "Concern for hyperkalemia",
+                            "IV sodium bicarbonate infusion",
+                            "K > = 6.0"
+                        ]
+                    },
+                    {
+                        "subRiskFactor": "Emergent hemodialysis",
+                        "clinicalFacts": [
+                            "CKD",
+                            "Concern for hyperkalemia",
+                            "Emergent hemodialysis",
+                            "K > = 6.0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "riskFactor": "Physician diagnosis of acute kidney injury with (see When To Use for help determining the baseline creatinine):",
+                "subRiskFactors": [
+                    {
+                        "subRiskFactor": "Creatinine elevation on arrival - greater than or equal to 2.0 times baseline, which is known or presumed to have increased in the prior 7 days",
+                        "clinicalFacts": [
+                            "Diagnosis of AKI",
+                            "Increase in Cr > = 2 x baseline in prior 7 days"
+                        ]
+                    },
+                    {
+                        "subRiskFactor": "Creatinine elevation on arrival - greater than or equal to 4.0 mg/dL, which is known or presumed to have increased more than 0.5 mg/dL in the prior 7 days",
+                        "clinicalFacts": [
+                            "Cr > = 4.0",
+                            "Diagnosis of AKI",
+                            "Increase in Cr > 0.5 in prior 7 days"
+                        ]
+                    },
+                    {
+                        "subRiskFactor": "Creatinine increase after admission - greater than or equal 1.5 times baseline [50% increase]. Please note: you need at least two creatinine measurements DURING the hospital stay in order to use this risk factor, with at least one occurring after hospital admission.",
+                        "clinicalFacts": [
+                            "Diagnosis of AKI",
+                            "Increase in Cr > = 1.5 x baseline"
+                        ]
+                    },
+                    {
+                        "subRiskFactor": "Creatinine increase after admission - greater than or equal to 0.3 mg/dL within a 48-hour interval. Please note: you need at least two creatinine measurements DURING the hospital stay in order to use this risk factor, with at least one occurring after hospital admission.",
+                        "clinicalFacts": [
+                            "Diagnosis of AKI",
+                            "Increase in Cr > = 0.3 within 48 hrs"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "lowRiskProfile": "Low Risk Profile",
+        "matchedAudience": [],
+        "recommendationStatus": "recommended",
+        "reason": "The clinical group 'GURENAL: CKD and ESRD Complications and Dialysis Issues' matched multiple high risk factors and clinical facts related to shock, hypotension, hyperkalemia, and acute kidney injury, demonstrating strong overall support exceeding 70%."
+    }
+]

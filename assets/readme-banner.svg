@@ -1,0 +1,53 @@
+﻿<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081C2A"/>
+      <stop offset="0.55" stop-color="#12344D"/>
+      <stop offset="1" stop-color="#1F6B70"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="153" y1="102" x2="899" y2="361" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DF9C6"/>
+      <stop offset="1" stop-color="#8ED8FF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#031019" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <g opacity="0.18">
+    <circle cx="986" cy="96" r="218" fill="#8ED8FF"/>
+    <circle cx="136" cy="372" r="190" fill="#7DF9C6"/>
+  </g>
+  <g opacity="0.18" stroke="#D8F8FF">
+    <path d="M82 324C183 257 252 250 350 281C453 313 531 331 650 279C778 224 846 219 944 247C1022 269 1086 256 1144 222" stroke-width="4" stroke-linecap="round"/>
+    <path d="M120 285C190 234 261 215 348 238C439 262 518 295 632 248C757 196 850 176 962 212C1041 238 1095 229 1134 210" stroke-width="2" stroke-linecap="round" stroke-dasharray="8 10"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="62" y="58" width="360" height="304" rx="26" fill="#0D2433" stroke="#4FBFC3" stroke-opacity="0.35"/>
+    <rect x="464" y="92" width="670" height="236" rx="26" fill="#0B1B28" stroke="#7DF9C6" stroke-opacity="0.24"/>
+  </g>
+  <g>
+    <rect x="92" y="94" width="300" height="18" rx="9" fill="#1B4259"/>
+    <rect x="92" y="132" width="246" height="18" rx="9" fill="#18455A"/>
+    <rect x="92" y="176" width="126" height="74" rx="18" fill="#102C3C" stroke="#7DF9C6" stroke-opacity="0.38"/>
+    <rect x="232" y="176" width="126" height="74" rx="18" fill="#102C3C" stroke="#8ED8FF" stroke-opacity="0.38"/>
+    <rect x="92" y="264" width="266" height="56" rx="18" fill="#102C3C" stroke="#D8F8FF" stroke-opacity="0.18"/>
+    <text x="118" y="220" fill="#7DF9C6" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">517</text>
+    <text x="118" y="245" fill="#B9D8E6" font-family="Segoe UI, Arial, sans-serif" font-size="13">risk factors</text>
+    <text x="258" y="220" fill="#8ED8FF" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700">43</text>
+    <text x="258" y="245" fill="#B9D8E6" font-family="Segoe UI, Arial, sans-serif" font-size="13">clinical groups</text>
+    <text x="118" y="297" fill="#F4FCFF" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">82% smaller context</text>
+  </g>
+  <g>
+    <text x="502" y="154" fill="#7DF9C6" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="1.8">LLM SYSTEMS PORTFOLIO PROJECT</text>
+    <text x="502" y="206" fill="#F5FEFF" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="800">Clinical Risk Factor and</text>
+    <text x="502" y="252" fill="#F5FEFF" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="800">Group Recommendation Pipeline</text>
+    <text x="502" y="294" fill="#B8D8E8" font-family="Segoe UI, Arial, sans-serif" font-size="18">Retrieval-constrained prompting, structured JSON outputs,</text>
+    <text x="502" y="322" fill="#B8D8E8" font-family="Segoe UI, Arial, sans-serif" font-size="18">and measurable prompt-efficiency gains over a healthcare-style corpus.</text>
+  </g>
+  <g>
+    <circle cx="1047" cy="109" r="8" fill="#7DF9C6"/>
+    <circle cx="1077" cy="109" r="8" fill="#8ED8FF"/>
+    <circle cx="1107" cy="109" r="8" fill="#D8F8FF"/>
+  </g>
+</svg>

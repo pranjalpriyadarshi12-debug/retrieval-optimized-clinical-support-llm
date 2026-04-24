@@ -1,0 +1,7 @@
+﻿# Add your project dependencies here
+python-dotenv
+openai
+httpx
+langchain-openai
+fastapi
+uvicorn

@@ -1,0 +1,368 @@
+[
+    {
+        "patient_id": "P12345",
+        "riskFactors": [
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Fall with injury (if elderly use ground level falls if appropriate):",
+                        "value": 1477554
+                    },
+                    "clinicalFacts": []
+                },
+                "subRiskFactors": [
+                    {
+                        "riskFactor": {
+                            "label": "Ground level fall",
+                            "value": 1104
+                        },
+                        "clinicalFacts": [
+                            {
+                                "label": "Ground level fall",
+                                "value": 1104
+                            }
+                        ]
+                    }
+                ],
+                "riskFactorType": "lowRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Fall with injury (if elderly use ground level falls if appropriate):",
+                        "value": 1477554
+                    },
+                    "clinicalFacts": []
+                },
+                "subRiskFactors": [
+                    {
+                        "riskFactor": {
+                            "label": "Two or more long bone fractures (such as femur, humerus)",
+                            "value": 1353521
+                        },
+                        "clinicalFacts": [
+                            {
+                                "label": "Fall from a height",
+                                "value": 988
+                            },
+                            {
+                                "label": "Ground level fall",
+                                "value": 1104
+                            },
+                            {
+                                "label": ">= 2 long bone fractures",
+                                "value": 19
+                            }
+                        ]
+                    }
+                ],
+                "riskFactorType": "lowRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Multimorbidity (defined as having two or more major comorbidities, such as CAD, COPD, DM, cancer, HTN, hyperlipidemia [HLD], obesity, smoker, or CKD. Do NOT select if HTN and HLD are the ONLY two chronic conditions.)",
+                        "value": 1354655
+                    },
+                    "clinicalFacts": [
+                        {
+                            "label": "Diabetes",
+                            "value": 784
+                        },
+                        {
+                            "label": "Hypertension",
+                            "value": 6534
+                        },
+                        {
+                            "label": "Hyperlipidemia",
+                            "value": 7985
+                        }
+                    ]
+                },
+                "subRiskFactors": [],
+                "riskFactorType": "lowRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Preoperative cardiac evaluation completed with clearance for surgery",
+                        "value": null
+                    },
+                    "clinicalFacts": [
+                        {
+                            "label": "Cardiac clearance obtained",
+                            "value": null
+                        },
+                        {
+                            "label": "Hemodynamically stable",
+                            "value": 1124
+                        }
+                    ]
+                },
+                "subRiskFactors": [],
+                "riskFactorType": "lowRisk"
+            }
+        ]
+    },
+    {
+        "patient_id": "P67890",
+        "riskFactors": [
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Persistent or new laboratory, metabolic or electrolyte derangement requiring IV treatment and blood chemistries more than once a day:",
+                        "value": 1477824
+                    },
+                    "clinicalFacts": []
+                },
+                "subRiskFactors": [
+                    {
+                        "riskFactor": {
+                            "label": "Ionized calcium less than 2.5 mg/dL (total calcium less than 7.5 mg/dL)",
+                            "value": 1351177
+                        },
+                        "clinicalFacts": [
+                            {
+                                "label": "Blood chemistries more than once a day",
+                                "value": 7450
+                            },
+                            {
+                                "label": "Ca < 7.5",
+                                "value": 471
+                            },
+                            {
+                                "label": "Ionized Ca < 2.5",
+                                "value": 7539
+                            },
+                            {
+                                "label": "IV treatment of hypocalcemia",
+                                "value": 7397
+                            }
+                        ]
+                    },
+                    {
+                        "riskFactor": {
+                            "label": "Potassium level less than 3.0 mEq/L",
+                            "value": 1351181
+                        },
+                        "clinicalFacts": [
+                            {
+                                "label": "Blood chemistries more than once a day",
+                                "value": 7450
+                            },
+                            {
+                                "label": "IV potassium",
+                                "value": 7402
+                            },
+                            {
+                                "label": "K < 3.0",
+                                "value": 1459
+                            }
+                        ]
+                    },
+                    {
+                        "riskFactor": {
+                            "label": "Phosphorus level less than 1.0 mg/dL or greater than 4.5 mg/dL",
+                            "value": 1351179
+                        },
+                        "clinicalFacts": [
+                            {
+                                "label": "Blood chemistries more than once a day",
+                                "value": 7450
+                            },
+                            {
+                                "label": "IV treatment of abnormal phosphorus level",
+                                "value": 7502
+                            },
+                            {
+                                "label": "Phosphorus > 4.5",
+                                "value": 2027
+                            }
+                        ]
+                    }
+                ],
+                "riskFactorType": "highRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Physician diagnosis of CHRONIC KIDNEY DISEASE, end-stage renal disease, OR ACUTE KIDNEY INJURY ON ARRIVAL with ALL of the following (for AKI occurring during the hospital stay see high risk factor for Worsening Renal Function):",
+                        "value": 1477962
+                    },
+                    "clinicalFacts": []
+                },
+                "subRiskFactors": [
+                    {
+                        "riskFactor": {
+                            "label": "Laboratory abnormality(s) ON ARRIVAL - one of the following: 1) BUN greater than or equal to 40 mg/dL; 2) creatinine greater than or equal to 2.75 mg/dL; 3) creatinine less than 2.75 mg/dL but greater than or equal to 1.5 times baseline (see When To Use for help determining the baseline creatinine); 4) estimated GFR less than 30 mL/min; OR 5) hemoglobin less than 10 g/dL",
+                            "value": 1355134
+                        },
+                        "clinicalFacts": [
+                            {
+                                "label": "BUN > = 40",
+                                "value": 3012
+                            },
+                            {
+                                "label": "Concern for AKI",
+                                "value": 664
+                            },
+                            {
+                                "label": "Concern for CKD",
+                                "value": 7729
+                            },
+                            {
+                                "label": "Cr > = 2.75",
+                                "value": 8347
+                            },
+                            {
+                                "label": "Hemoglobin < 10",
+                                "value": 5406
+                            },
+                            {
+                                "label": "Increase in Cr > = 1.5 x baseline",
+                                "value": 1311
+                            }
+                        ]
+                    }
+                ],
+                "riskFactorType": "highRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Shock, likely hypovolemic- cannot r/o septic",
+                        "value": null
+                    },
+                    "clinicalFacts": [
+                        {
+                            "label": "Shock",
+                            "value": 2433
+                        },
+                        {
+                            "label": "Hypotension",
+                            "value": null
+                        },
+                        {
+                            "label": "Use of vasopressor (levophed)",
+                            "value": null
+                        }
+                    ]
+                },
+                "subRiskFactors": [],
+                "riskFactorType": "highRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "LACTATE greater than or equal to 2.0 mmol/L, physician diagnosis of SEPSIS, BLOOD CULTURES obtained, AND IV antimicrobials administered WITH:",
+                        "value": 1477672
+                    },
+                    "clinicalFacts": []
+                },
+                "subRiskFactors": [
+                    {
+                        "riskFactor": {
+                            "label": "Systemic inflammatory response syndrome (SIRS) - TWO or more of the following: 1) temperature less than 36.0 \u00b0C (96.8 \u00b0F) or greater than 38.0 \u00b0C (100.4 \u00b0F); 2) pulse greater than 90 beats per minute; 3) respiration greater than 20 breaths per minute or arterial pCO2 less than 32 mmHg; or 4) WBC less than 4,000/mm3 or greater than 12,000/mm3 or greater than 10% bands",
+                            "value": 1357608
+                        },
+                        "clinicalFacts": [
+                            {
+                                "label": "Diagnosis of sepsis",
+                                "value": 8582
+                            },
+                            {
+                                "label": "IV antimicrobial",
+                                "value": 4396
+                            },
+                            {
+                                "label": "Lactate > = 2",
+                                "value": 4264
+                            },
+                            {
+                                "label": "WBC > 12,000",
+                                "value": 2846
+                            }
+                        ]
+                    }
+                ],
+                "riskFactorType": "highRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Persistent vomiting or diarrhea despite treatment in the Emergency Department with:",
+                        "value": 1477831
+                    },
+                    "clinicalFacts": []
+                },
+                "subRiskFactors": [
+                    {
+                        "riskFactor": {
+                            "label": "Severe dehydration (persistent tachycardia, orthostatic hypotension, decreased urine output, or mental status changes)",
+                            "value": 1357357
+                        },
+                        "clinicalFacts": [
+                            {
+                                "label": "Persistent diarrhea",
+                                "value": 11056
+                            },
+                            {
+                                "label": "Poor urine output",
+                                "value": 2070
+                            }
+                        ]
+                    }
+                ],
+                "riskFactorType": "highRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Ulcerative colitis with or without bloody stools and no systemic toxicity (fever, leukocytosis, AMS)",
+                        "value": 1357288
+                    },
+                    "clinicalFacts": [
+                        {
+                            "label": "Afebrile",
+                            "value": 3275
+                        },
+                        {
+                            "label": "Baseline mental status",
+                            "value": 392
+                        },
+                        {
+                            "label": "Leukocytosis",
+                            "value": 1498
+                        },
+                        {
+                            "label": "Ulcerative colitis",
+                            "value": 2702
+                        }
+                    ]
+                },
+                "subRiskFactors": [],
+                "riskFactorType": "lowRisk"
+            },
+            {
+                "riskFactor": {
+                    "riskFactor": {
+                        "label": "Elevated troponin with NO or LOW physician concern for acute myocardial infarction",
+                        "value": 1353669
+                    },
+                    "clinicalFacts": [
+                        {
+                            "label": "Elevated troponin",
+                            "value": 76
+                        },
+                        {
+                            "label": "Concern for ACS",
+                            "value": 3017
+                        }
+                    ]
+                },
+                "subRiskFactors": [],
+                "riskFactorType": "lowRisk"
+            }
+        ]
+    }
+]
