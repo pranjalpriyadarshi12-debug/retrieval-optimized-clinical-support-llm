@@ -22,6 +22,7 @@ A **retrieval-optimized LLM system** that processes patient data to:
 | Clinical groups evaluated | 43 | 8 | 🔻 **-81%** |
 
 ## Architecture
+```mermaid
 flowchart TD
     A[Patient Data + Notes] --> B[Text Extraction]
     B --> C[Risk Factor Retrieval]
