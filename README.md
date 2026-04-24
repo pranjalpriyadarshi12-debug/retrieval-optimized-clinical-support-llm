@@ -1,6 +1,14 @@
 # Clinical Risk Factor & Recommendation System  
 ### Retrieval-Optimized LLM Pipeline for Decision Support
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue"/>
+  <img src="https://img.shields.io/badge/LLM-Azure%20OpenAI-purple"/>
+  <img src="https://img.shields.io/badge/Architecture-RAG-green"/>
+  <img src="https://img.shields.io/badge/Focus-Prompt%20Optimization-orange"/>
+</p>
+---
+
 ## Overview
 
 A **retrieval-optimized LLM system** that processes patient data to:
