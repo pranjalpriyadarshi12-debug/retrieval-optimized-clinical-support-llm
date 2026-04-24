@@ -32,12 +32,10 @@ A **retrieval-optimized LLM system** that processes patient data to:
 ## Architecture
 ```mermaid
 flowchart TD
-    A[Patient Data + Notes] --> B[Text Extraction]
-    B --> C[Risk Factor Retrieval]
-    C --> D[Top-K Candidates]
-    D --> E[LLM Risk Factor Extraction]
-    E --> F[Normalized Risk Factors]
-    F --> G[Clinical Group Retrieval]
-    G --> H[Top-K Groups]
-    H --> I[LLM Recommendation]
-    I --> J[Final JSON Output]
+    A[Patient Data + Clinical Notes] --> B[Text Extraction]
+    B --> C[Retrieve Top Risk Factors]
+    C --> D[LLM Risk Factor Extraction]
+    D --> E[Normalize JSON Output]
+    E --> F[Retrieve Top Clinical Groups]
+    F --> G[LLM Recommendation]
+    G --> H[Final Recommendation JSON]
